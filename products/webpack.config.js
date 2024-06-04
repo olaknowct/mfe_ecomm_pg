@@ -12,7 +12,7 @@ module.exports = {
       filename: 'remoteEntry.js',
       exposes: {
         // alias - directory
-        './ProductsIndex': './src/index',
+        './ProductsIndex': './src/bootstrap',
       },
       shared: ['faker'],
     }),
