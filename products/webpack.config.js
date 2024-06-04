@@ -14,6 +14,7 @@ module.exports = {
         // alias - directory
         './ProductsIndex': './src/index',
       },
+      shared: ['faker'],
     }),
     // checks every thing webpack build and add it automatically into the template
     new HtmlWebpackPlugin({
